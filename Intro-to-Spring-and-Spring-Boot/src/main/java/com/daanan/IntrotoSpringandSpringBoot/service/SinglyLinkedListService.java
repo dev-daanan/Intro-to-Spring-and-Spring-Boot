@@ -13,6 +13,7 @@ public class SinglyLinkedListService<T> {
     public SinglyLinkedListService(SinglyLinkedList<T> genericSinglyLinkedList) {
         this.genericSinglyLinkedList = genericSinglyLinkedList;
     }
+
     public void addToSinglyLinkedList(T data) {
         genericSinglyLinkedList.addLast(data);
     }
