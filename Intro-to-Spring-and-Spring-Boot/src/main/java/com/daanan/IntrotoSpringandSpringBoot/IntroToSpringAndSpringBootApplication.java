@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class IntroToSpringAndSpringBootApplication {
-// Checking for changes
+
 	public static void main(String[] args) {
 		SpringApplication.run(IntroToSpringAndSpringBootApplication.class, args);
 	}
